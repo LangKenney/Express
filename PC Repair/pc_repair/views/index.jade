@@ -1,0 +1,42 @@
+// Puts layout in as the "header"
+extends layout
+
+block variables
+  - HOMEPAGE = true;
+
+//Inserts your content into the layout starting at the block content keyword
+block content
+  // img(width='100%', src= "https://unsplash.it/1000/500?image=1067")
+  .row
+    .col-md-4
+      h2
+        i(class='glyphicon glyphicon-hdd') 
+        | Hardware Problems
+      p
+        | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      p
+        a.btn.btn-default(href='#', role='button') View details »
+    .col-md-4
+      h2
+        i(class='glyphicon glyphicon-list-alt') 
+        | Software Problems
+      p
+        | Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+      p
+        a.btn.btn-default(href='#', role='button') View details »
+    .col-md-4
+      h2
+        i(class='glyphicon glyphicon-cog') 
+        | Computer Tune Up
+      p
+        | Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+      p
+        a.btn.btn-default(href='#', role='button') View details »
+    
+
+  
+  // used to be: h1 =  title
+  h1  Welcome to Lang's PC repair
+  p(style={color: 'red'}) Welcome to #{title}
+
+  

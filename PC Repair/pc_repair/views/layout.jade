@@ -1,0 +1,24 @@
+-var HOMEPAGE = false;
+block variables
+doctype html
+html
+  head
+    title= "PC Repair"
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    script(src='/javascript/bootstrap.js')
+  body
+    include ./includes/navbar.jade
+    // Main jumbotron for a primary marketing message or call to action
+    if HOMEPAGE
+      include ./includes/showcase.jade
+      // Example row of columns
+    .container
+      block content
+      
+    hr
+    footer
+      p © 2015 Company, Inc.
+      
+      // All content will be put in block content
+      // block content

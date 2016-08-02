@@ -1,0 +1,22 @@
+[
+    {
+     "name": "Hardware Repair",
+     "description": "Dummy Text",
+     "price_range": "$100-$200"
+    },
+    {
+     "name": "Virus Removal",
+     "description": "Dummy Text",
+     "price_range": "$100-$150"
+    },
+    {
+     "name": "PC Tune Up",
+     "description": "Dummy Text",
+     "price_range": "$50-$100"
+    },
+    {
+     "name": "Networking Services",
+     "description": "Running all the Cat5's",
+     "price_range": "$300-$1000"
+    }
+]
